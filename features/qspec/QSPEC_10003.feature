@@ -21,4 +21,4 @@ Feature: Demo1_Using calculator to calculate simple operators
     Given I have calculator
     When I add 4 and 3
     But I divide the total by zero
-    Then I should see error message "Cannot divide by one"
+    Then I should see error message "Cannot divide by two"
