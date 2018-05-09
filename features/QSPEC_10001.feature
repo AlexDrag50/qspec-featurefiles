@@ -26,4 +26,4 @@ Feature: Demo1_SimpleOperators_Pass_Fail_Incomple
   Scenario: Cancel
 	Given I have calculator
     When press C
-	Then calculator return 0001
+	Then calculator return 0
