@@ -4,3 +4,4 @@ Feature:
 
   Scenario:
     <Hey! Hari>
+    <Hi Jonathan!>
