@@ -4,3 +4,4 @@ Feature:
 
   Scenario:
     <Hi Antwan!>
+    <Hi Vu!>
