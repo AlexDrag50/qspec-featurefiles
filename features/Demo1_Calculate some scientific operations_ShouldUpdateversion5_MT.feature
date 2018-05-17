@@ -1,5 +1,5 @@
 
-Feature: Demo1_Calculate some scientific operations_ShouldUpdateversion5
+Feature: Demo1_Calculate some scientific operations_ShouldUpdateversion5.x
 Update gherkin editor after execution 1st
 
   Scenario: Demo1_Calculate the factorial
