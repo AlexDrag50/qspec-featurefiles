@@ -1,3 +1,0 @@
-Feature: another test sample
-
-
