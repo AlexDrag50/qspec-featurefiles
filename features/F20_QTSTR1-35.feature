@@ -1,0 +1,11 @@
+
+Feature: F20
+
+
+Scenario: S1F20
+Given G1S1F20
+And AG1S1F20
+But BG1S1F20
+When W1S1F20
+And AW1S1F20
+But BW1S1F20
