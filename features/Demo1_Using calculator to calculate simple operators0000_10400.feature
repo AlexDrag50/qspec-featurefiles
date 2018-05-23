@@ -1,26 +1,43 @@
-@DemoSimple
-Feature: Demo1_Using calculator to calculate simple operators0000
-  As a userABC
-  I want to calculate basic operations
-  So that I don't need to calculate by myself
+
+Feature: Demo1_User cannot input character into calculator1.1
 
 
-  Scenario: Demo1_Add two numbers
-    The first simple case
+  Scenario Outline: Demo1_Input some characters to calculator1.2
     Given I have calculator
-    When I add 4 and 3
-    Then I should see 7
-    
-    
+    When I add character <character> to calculator
+    Then I should see the warning message "You have inputted invalid number"
 
-  Scenario: Demo1_Square sum of two numbers
-    Given I have calculator
-    When I add 4 and 3
-    And I square the total of two numbers
-    Then I should see 49
+    Examples: Normal characters
+    |character|
+    |a        |
+    |b        |
+    |w        |
+    |z        |
+    |q        |
+    |A        |
+    |B        |
+    |G        |
+    |Z        |
 
-  Scenario: Demo1_Divide by zero
-    Given I have calculator
-    When I add 4 and 3
-    But I divide the total by zero
-    Then I should see error message "Cannot divide by zero"
+    @special_characters
+    Examples: Special characters
+    |character|
+    |~        |
+    |!        |
+    |@        |
+    |#        |
+    |$        |
+    |%        |
+    |^        |
+    |&        |
+    |*        |
+    |(        |
+    |)        |
+    |\        |
+    |'        |
+    |.        |
+    |,        |
+    |?        |
+    |<        |
+    |>        |
+    |:        |
