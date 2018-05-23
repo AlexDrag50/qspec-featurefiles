@@ -1,9 +1,8 @@
-@demo
-Feature: Manual feature
-Demo
-Test
+@empty
+Feature: Empty Feature
+Empty Feature
 
-Scenario:
-Given user has two numbers
-When user adds two numbers
-Then user has sum of two numbers
+Scenario: 1
+Given G1
+When W1
+Then T1
