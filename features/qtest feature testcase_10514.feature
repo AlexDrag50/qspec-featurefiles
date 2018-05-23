@@ -1,13 +1,24 @@
+@DemoSimple
+Feature: Demo1_Using calculator to calculate simple operators
+  As a user
+  I want to calculate basic operations
+  So that I don't need to calculate by myself
+
+
+  Scenario: Demo1_Add two numbers
+    The first simple case
+    Given I have calculator
+    When I add 4 and 3
+    Then I should see 7
 @test
-Feature: qtest feature testcase
+  Scenario: Demo1_Square sum of two numbers
+    Given I have calculator
+    When I add 4 and 3
+    And I square the total of two numbers
+    Then I should see 49
 
- 
-
-Scenario: To verify the functionality of qtest scenario export
-	Given qtest plug-in in JIRA
-    When I login into qtest
-    Then I should be able to import qtestscenarios from JIRA
-Scenario: Verify the fields after exporting a qtestscenario issue to qtest
-	Given I create a issue in JIRA of type qtestscenario
-    When I export this issue to qtest
-    Then I should see these steps are populated in the qtest Test Steps field
+  Scenario: Demo1_Divide by zero
+    Given I have calculator
+    When I add 4 and 3
+    But I divide the total by zero
+    Then I should see error message "Cannot divide by zero"
