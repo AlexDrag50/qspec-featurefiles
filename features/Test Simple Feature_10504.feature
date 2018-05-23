@@ -1,23 +1,21 @@
-#This is test feature
-@apple
-Feature: Test Simple Feature
-  Background:
-    Given There're 3 apples
-      |a|
-      |b|
-      |c|
-    And There're 2 baskets
-      |B1|
-      |B2|
-  @apple1
 
-  Scenario: test Simple Scenario
-    Given User divides apples by baskets
-    When User lays 2 apples in basket B1
-    Then B2 should have 1 apple
-	
-	@apple2
-  Scenario: test2 Simple Scenario
-    Given User divides apples by baskets
-    When User lays 2 apples in basket B1
-    Then B2 should have 1 apple
+Feature: Demo1_Using calculator to calculate total addition, multiplication of list number
+  This feature used to do addition and multiplication for all numbers in the list.
+  In this test we just test for integer numbers.
+  Background:
+    Given I have list of number
+      |12|
+      |3 |
+      |45|
+      |2 |
+
+    # This scenario for addition operation
+
+  Scenario: Demo1_Add all number in list
+    When I add all number in list
+    Then the result after adding all number in list should be 62
+
+    # This scenario for multiplication operation
+  Scenario: Demo1_Multiply all number in list
+    When I multiply all number in list
+    Then the result after multiplying all number in list should be 3240
