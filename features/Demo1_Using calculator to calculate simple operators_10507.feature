@@ -6,11 +6,10 @@ Feature: Demo1_Using calculator to calculate simple operators
 
 
   Scenario: Demo1_Add two numbers
-  
+    The first simple case
     Given I have calculator
     When I add 4 and 3
     Then I should see 7
-    
 
   Scenario: Demo1_Square sum of two numbers
     Given I have calculator
