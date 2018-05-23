@@ -1,8 +1,2 @@
-@empty
-Feature: Empty Feature
-Empty Feature
+Feature: Walk to the Starbucks on Hannah Avenue For Coffee
 
-Scenario: 1
-Given G1
-When W1
-Then T1
