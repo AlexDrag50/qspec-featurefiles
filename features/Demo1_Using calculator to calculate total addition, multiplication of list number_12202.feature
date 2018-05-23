@@ -19,3 +19,4 @@ Feature: Demo1_Using calculator to calculate total addition, multiplication of l
   Scenario: Demo1_Multiply all number in list
     When I multiply all number in list
     Then the result after multiplying all number in list should be 3240
+    
