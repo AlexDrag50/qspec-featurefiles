@@ -1,8 +1,7 @@
-@empty
-Feature: Empty Feature 2
-Test empty
+Feature: Demo_qtest new version
+As a user I want to verify qtest new version
 
-Scenario: 2
-Given G2
-When W2
-Then T2
+Scenario: Test case to verify new qtest version
+Given I open the URL qtest.com
+When I login into qtest.com
+Then I should be able to view the home page
