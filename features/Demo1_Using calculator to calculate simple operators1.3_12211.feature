@@ -1,24 +1,21 @@
-@DemoSimple
-Feature: Demo1_Using calculator to calculate simple operators1.3
-  As a user
-  I want to calculate basic operations
-  So that I don't need to calculate by myself
 
+Feature: Demo_Using calculator to calculate total addition, multiplication of list number
+  This feature used to do addition and multiplication for all numbers in the list.
+  In this test we just test for integer numbers.
+  Background:
+    Given I have list of number
+      |12|
+      |3 |
+      |45|
+      |2 |
 
-  Scenario: Demo1_Add two numbers
-    The first simple case
-    Given I have calculator
-    When I add 4 and 3
-    Then I should see 7
-@test
-  Scenario: Demo1_Square sum of two numbers
-    Given I have calculator
-    When I add 4 and 3
-    And I square the total of two numbers
-    Then I should see 49
+    # This scenario for addition operation
 
-  Scenario: Demo1_Divide by zero
-    Given I have calculator
-    When I add 4 and 3
-    But I divide the total by zero
-    Then I should see error message "Cannot divide by zero"
+  Scenario: Demo_Add all number in list
+    When I add all number in list
+    Then the result after adding all number in list should be 62
+
+    # This scenario for multiplication operation
+  Scenario: Demo_Multiply all number in list
+   When I multiply all number in list
+    Then the result after multiplying all number in list should be 3240
