@@ -1,24 +1,23 @@
-@DemoSimple
-Feature: Demo1_Using calculator to calculate simple operators
-  As a user
-  I want to calculate basic operations
-  So that I don't need to calculate by myself
+#This is test feature
+@apple
+Feature: Test Simple Feature
+  Background:
+    Given There're 3 apples
+      |a|
+      |b|
+      |c|
+    And There're 2 baskets
+      |B1|
+      |B2|
+  @apple1
 
-
-  Scenario: Demo1_Add two numbers
-    The first simple case
-    Given I have calculator
-    When I add 4 and 3
-    Then I should see 7
-@test
-  Scenario: Demo1_Square sum of two numbers
-    Given I have calculator
-    When I add 4 and 3
-    And I square the total of two numbers
-    Then I should see 49
-
-  Scenario: Demo1_Divide by zero
-    Given I have calculator
-    When I add 4 and 3
-    But I divide the total by zero
-    Then I should see error message "Cannot divide by zero"
+  Scenario: test Simple Scenario
+    Given User divides apples by baskets
+    When User lays 2 apples in basket B1
+    Then B2 should have 1 apple
+	
+	@apple2
+  Scenario: test2 Simple Scenario
+    Given User divides apples by baskets
+    When User lays 2 apples in basket B1
+    Then B2 should have 1 apple
