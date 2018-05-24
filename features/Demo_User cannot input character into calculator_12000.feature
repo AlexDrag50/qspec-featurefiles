@@ -1,8 +1,8 @@
 
-Feature: Demo_User cannot input character into calculator
+Feature: Demo1_User cannot input character into calculator1.1
 
 
-  Scenario Outline: Demo_Input some characters to calculator
+  Scenario Outline: Demo1_Input some characters to calculator1.2
     Given I have calculator
     When I add character <character> to calculator
     Then I should see the warning message "You have inputted invalid number"
