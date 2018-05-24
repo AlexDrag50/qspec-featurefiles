@@ -1,22 +1,12 @@
 
-Feature: Demo1_Using calculator to calculate total addition, multiplication of list number
-  This feature used to do addition and multiplication for all numbers in the list.
-  In this test we just test for integer numbers.
-  Background:
-    Given I have list of number
-      |12|
-      |3 |
-      |45|
-      |2 |
+Feature: Serve coffee
+    Coffee should not be served until paid for
+    Coffee should not be served until the button has been pressed
+    If there is no coffee left then money should be refunded
 
-    # This scenario for addition operation
 
-  Scenario: Demo1_Add all number in list
-    When I add all number in list
-    Then the result after adding all number in list should be 62
-
-    # This scenario for multiplication operation
-  Scenario: Demo1_Multiply all number in list
-    When I multiply all number in list
-    Then the result after multiplying all number in list should be 3240
-    
+  Scenario: Buy last coffee
+    Given there are 1 coffees left in the machine
+    And I have deposited 1$
+    When I press the coffee button
+    Then I should be served a coffee
