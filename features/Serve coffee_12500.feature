@@ -1,12 +1,13 @@
+@test
+Feature: qtest feature testcase
 
-Feature: Serve coffee
-    Coffee should not be served until paid for
-    Coffee should not be served until the button has been pressed
-    If there is no coffee left then money should be refunded
+ 
 
-
-  Scenario: Buy last coffee
-    Given there are 1 coffees left in the machine
-    And I have deposited 1$
-    When I press the coffee button
-    Then I should be served a coffee
+Scenario: To verify the functionality of qtest scenario export
+	Given qtest plug-in in JIRA
+    When I login into qtest
+    Then I should be able to import qtestscenarios from JIRA
+Scenario: Verify the fields after exporting a qtestscenario issue to qtest
+	Given I create a issue in JIRA of type qtestscenario
+    When I export this issue to qtest
+    Then I should see these steps are populated in the qtest Test Steps field
