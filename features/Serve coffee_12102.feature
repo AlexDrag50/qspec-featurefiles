@@ -1,12 +1,23 @@
+#This is test feature
+@apple
+Feature: Test Simple Feature
+  Background:
+    Given There're 3 apples
+      |a|
+      |b|
+      |c|
+    And There're 2 baskets
+      |B1|
+      |B2|
+  @apple1
 
-Feature: Serve coffee
-    Coffee should not be served until paid for
-    Coffee should not be served until the button has been pressed
-    If there is no coffee left then money should be refunded
-
-
-  Scenario: Buy last coffee
-    Given there are 1 coffees left in the machine
-    And I have deposited 1$
-    When I press the coffee button
-    Then I should be served a coffee
+  Scenario: test Simple Scenario
+    Given User divides apples by baskets
+    When User lays 2 apples in basket B1
+    Then B2 should have 1 apple
+	
+	@apple2
+  Scenario: test2 Simple Scenario
+    Given User divides apples by baskets
+    When User lays 2 apples in basket B1
+    Then B2 should have 1 apple
