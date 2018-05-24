@@ -4,6 +4,7 @@ Feature: Demo_Calculate some scientific operations
 
   Scenario: Demo_Calculate the factorial
       Given I have list of number
+      |number|
       |0 |
       |1 |
       |2 |
@@ -12,6 +13,7 @@ Feature: Demo_Calculate some scientific operations
       |11|
       When I do factorial for number
       Then I should see proper following result
+      |result|
       |1        |
       |1        |
       |2        |
@@ -20,7 +22,7 @@ Feature: Demo_Calculate some scientific operations
       |39916800 |
 
   Scenario: Demo_Base number to the power
-  """The result should be Failed because there's a case that 3 power 3 has wrong result = 20. It should be 27."""
+  The result should be "Failed" because there's a case that 3 power 3 has wrong result = 20. It should be 27.
     Given I have calculator
     When base number to the power
       |base number|power|
@@ -31,6 +33,7 @@ Feature: Demo_Calculate some scientific operations
       |3          |2    |
       |3          |3    |
     Then I should see proper following result
+      |result|	
       |1     |
       |2     |
       |4     |
@@ -45,6 +48,7 @@ Feature: Demo_Calculate some scientific operations
   """
     Given I have calculator
     When I power the sum of (first number and second number)
+      |name			|value|	
       |first number |3|
       |second number|5|
       |power        |2|
