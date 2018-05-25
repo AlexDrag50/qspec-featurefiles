@@ -1,0 +1,11 @@
+
+Feature: F16
+
+
+Scenario: S1F16
+Given G1S1F16
+And AG1S1F16
+But BG1S1F16
+When W1S1F16
+And AW1S1F16
+But BW1S1F16
