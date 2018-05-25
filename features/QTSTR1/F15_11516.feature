@@ -1,0 +1,11 @@
+
+Feature: F15
+
+
+Scenario: S1F15
+Given G1S1F15
+And AG1S1F15
+But BG1S1F15
+When W1S1F15
+And AW1S1F15
+But BW1S1F15
