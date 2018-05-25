@@ -1,0 +1,11 @@
+
+Feature: F18
+
+
+Scenario: S1F18
+Given G1S1F18
+And AG1S1F18
+But BG1S1F18
+When W1S1F18
+And AW1S1F18
+But BW1S1F18
