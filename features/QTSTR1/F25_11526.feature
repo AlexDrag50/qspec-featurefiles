@@ -1,0 +1,11 @@
+
+Feature: F25
+
+
+Scenario: S1F25
+Given G1S1F25
+And AG1S1F25
+But BG1S1F25
+When W1S1F25
+And AW1S1F25
+But BW1S1F25
