@@ -1,4 +1,0 @@
-Feature: TEST
-
-
-Scenario: est
