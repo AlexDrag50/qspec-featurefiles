@@ -1,0 +1,11 @@
+
+Feature: F22
+
+
+Scenario: S1F22
+Given G1S1F22
+And AG1S1F22
+But BG1S1F22
+When W1S1F22
+And AW1S1F22
+But BW1S1F22
