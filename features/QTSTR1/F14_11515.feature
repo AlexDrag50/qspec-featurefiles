@@ -1,0 +1,11 @@
+
+Feature: F14
+
+
+Scenario: S1F14
+Given G1S1F14
+And AG1S1F14
+But BG1S1F14
+When W1S1F14
+And AW1S1F14
+But BW1S1F14
