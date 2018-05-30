@@ -1,0 +1,11 @@
+
+Feature: F23
+
+
+Scenario: S1F23
+Given G1S1F23
+And AG1S1F23
+But BG1S1F23
+When W1S1F23
+And AW1S1F23
+But BW1S1F23
