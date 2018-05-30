@@ -1,0 +1,11 @@
+
+Feature: F21
+
+
+Scenario: S1F21
+Given G1S1F21
+And AG1S1F21
+But BG1S1F21
+When W1S1F21
+And AW1S1F21
+But BW1S1F21
