@@ -13,7 +13,7 @@ Feature: Demo1_Using calculator to calculate simple operators1.3
 @test
   Scenario: Demo1_Square sum of two numbers
     Given I have calculator
-    When I add 4 and 3
+    When I add 4 and 34
     And I square the total of two numbers
     Then I should see 49
 
