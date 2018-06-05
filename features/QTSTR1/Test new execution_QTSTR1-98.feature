@@ -1,2 +1,0 @@
-Feature: Test new execution
-
