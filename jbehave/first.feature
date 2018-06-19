@@ -4,4 +4,4 @@ Feature:
 
   Scenario:
     <Let's Do It!>
-    <Hey!
+    Come on my boy
