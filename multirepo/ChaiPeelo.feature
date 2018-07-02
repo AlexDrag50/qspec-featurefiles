@@ -1,6 +1,6 @@
 
 Feature:
-  <Hello Frands>
+  <Hello Frands!>
 
   Scenario:
     <Chai Peelo>
