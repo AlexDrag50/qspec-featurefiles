@@ -1,6 +1,6 @@
 
 Feature:
-  <Some interesting description here-pulseruleaction>
+  <Some interesting description here-pulseruleactionevent>
 
   Scenario:
     <Some interesting scenario steps here>
