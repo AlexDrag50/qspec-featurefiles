@@ -1,6 +1,6 @@
 
 Feature:
-  <Some interesting description here-pulseruleactioneventconstant>
+  <Some interesting description here-pulseruleactioneventconstanttrigger>
 
   Scenario:
     <Some interesting scenario steps here>
