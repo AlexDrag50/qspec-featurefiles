@@ -1,6 +1,6 @@
 
 Feature:
-  <Some interesting description here-pulseruleactioneventconstanttriggerscenarioqtesttestlogstestsuites>
+  <Some interesting description here-pulseruleactioneventconstanttriggerscenarioqtesttestlogstestsuitesautomation>
 
   Scenario:
     <Some interesting scenario steps here>
