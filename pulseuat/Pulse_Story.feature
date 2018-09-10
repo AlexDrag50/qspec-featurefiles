@@ -3,4 +3,4 @@ Feature:
   <Some interesting description here-pulseruleactioneventconstanttriggerscenarioqtesttestlogstestsuitesautomation>
 
   Scenario:
-    <Some interesting scenario steps here-helloworld-test>
+    <Some interesting scenario steps here-helloworld-test1>
