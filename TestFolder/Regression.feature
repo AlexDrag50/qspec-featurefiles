@@ -1,6 +1,6 @@
 
 Feature:
-  <Some interesting description here>
+  <Anything>
 
   Scenario:
     <Some interesting scenario steps herep>
